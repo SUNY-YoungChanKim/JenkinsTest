@@ -29,21 +29,22 @@ def delSequence():
 
             sg_Seq=sg.find_one('Sequence',filters,fields)                                                
             
-            sg_Shots=sg_Seq['shots']                                                                     
-            for sg_Shot in sg_Shots:                      
-                sg_Shot['Episode']=sg_Seq['code']                                                      
-                sg_shotExtend=sg.find_one('Shot',[['id', 'is', int(sg_Shot['id'])]],['image'])
-                image=sg_shotExtend['image']                                                            
-                if image == None:                                                                       
-                    sg_Shot['image']="None"
-                else:                                                                                  
-                    sg_Shot['image']=image
-                sg_Shot.pop('type')                                                                    
-                req['shots'].append(sg_Shot)                                                           
+            if sg_Seq is not None:
+                sg_Shots=sg_Seq['shots']                                                                     
+                for sg_Shot in sg_Shots:                      
+                    sg_Shot['Episode']=sg_Seq['code']                                                      
+                    sg_shotExtend=sg.find_one('Shot',[['id', 'is', int(sg_Shot['id'])]],['image'])
+                    image=sg_shotExtend['image']                                                            
+                    if image == None:                                                                       
+                        sg_Shot['image']="None"
+                    else:                                                                                  
+                        sg_Shot['image']=image
+                    sg_Shot.pop('type')                                                                    
+                    req['shots'].append(sg_Shot)                                                           
 
 
-            sg_Seq.pop('shots')
-            req['sequence'].append(sg_Seq)
+                sg_Seq.pop('shots')
+                req['sequence'].append(sg_Seq)
         
         
     
@@ -71,4 +72,4 @@ def delImplement():
 
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0")
