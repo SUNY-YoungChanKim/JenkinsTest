@@ -1,0 +1,396 @@
+2022/06/16 17:14:34 [notice] 3962#3962: using the "epoll" event method
+2022/06/16 17:14:34 [notice] 3962#3962: nginx/1.22.0
+2022/06/16 17:14:34 [notice] 3962#3962: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:14:34 [notice] 3962#3962: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:14:34 [notice] 3962#3962: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:14:34 [notice] 3963#3963: start worker processes
+2022/06/16 17:14:34 [notice] 3963#3963: start worker process 3965
+2022/06/16 17:16:26 [notice] 3963#3963: signal 1 (SIGHUP) received from 4187, reconfiguring
+2022/06/16 17:16:26 [notice] 3963#3963: reconfiguring
+2022/06/16 17:16:26 [notice] 3963#3963: using the "epoll" event method
+2022/06/16 17:16:26 [notice] 3963#3963: start worker processes
+2022/06/16 17:16:26 [notice] 3963#3963: start worker process 4188
+2022/06/16 17:16:26 [notice] 3965#3965: gracefully shutting down
+2022/06/16 17:16:26 [notice] 3965#3965: exiting
+2022/06/16 17:16:26 [notice] 3965#3965: exit
+2022/06/16 17:16:26 [notice] 3963#3963: signal 17 (SIGCHLD) received from 3965
+2022/06/16 17:16:26 [notice] 3963#3963: worker process 3965 exited with code 0
+2022/06/16 17:16:26 [notice] 3963#3963: signal 29 (SIGIO) received
+2022/06/16 17:16:28 [emerg] 4195#4195: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:16:28 [emerg] 4195#4195: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:16:28 [notice] 4195#4195: try again to bind() after 500ms
+2022/06/16 17:16:28 [emerg] 4195#4195: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:16:28 [emerg] 4195#4195: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:16:28 [notice] 4195#4195: try again to bind() after 500ms
+2022/06/16 17:16:28 [emerg] 4195#4195: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:16:28 [emerg] 4195#4195: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:16:28 [notice] 4195#4195: try again to bind() after 500ms
+2022/06/16 17:16:28 [emerg] 4195#4195: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:16:28 [emerg] 4195#4195: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:16:28 [notice] 4195#4195: try again to bind() after 500ms
+2022/06/16 17:16:28 [emerg] 4195#4195: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:16:28 [emerg] 4195#4195: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:16:28 [notice] 4195#4195: try again to bind() after 500ms
+2022/06/16 17:16:28 [emerg] 4195#4195: still could not bind()
+2022/06/16 17:18:57 [notice] 4398#4398: using the "epoll" event method
+2022/06/16 17:18:57 [notice] 4398#4398: nginx/1.22.0
+2022/06/16 17:18:57 [notice] 4398#4398: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:18:57 [notice] 4398#4398: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:18:57 [notice] 4398#4398: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:18:57 [notice] 4399#4399: start worker processes
+2022/06/16 17:18:57 [notice] 4399#4399: start worker process 4401
+2022/06/16 17:20:57 [notice] 4399#4399: signal 1 (SIGHUP) received from 4642, reconfiguring
+2022/06/16 17:20:57 [notice] 4399#4399: reconfiguring
+2022/06/16 17:20:57 [notice] 4399#4399: using the "epoll" event method
+2022/06/16 17:20:57 [notice] 4399#4399: start worker processes
+2022/06/16 17:20:57 [notice] 4399#4399: start worker process 4643
+2022/06/16 17:20:57 [notice] 4401#4401: gracefully shutting down
+2022/06/16 17:20:57 [notice] 4401#4401: exiting
+2022/06/16 17:20:57 [notice] 4401#4401: exit
+2022/06/16 17:20:57 [notice] 4399#4399: signal 17 (SIGCHLD) received from 4401
+2022/06/16 17:20:57 [notice] 4399#4399: worker process 4401 exited with code 0
+2022/06/16 17:20:57 [notice] 4399#4399: signal 29 (SIGIO) received
+2022/06/16 17:22:34 [emerg] 4751#4751: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:22:34 [emerg] 4751#4751: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:22:34 [notice] 4751#4751: try again to bind() after 500ms
+2022/06/16 17:22:34 [emerg] 4751#4751: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:22:34 [emerg] 4751#4751: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:22:34 [notice] 4751#4751: try again to bind() after 500ms
+2022/06/16 17:22:34 [emerg] 4751#4751: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:22:34 [emerg] 4751#4751: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:22:34 [notice] 4751#4751: try again to bind() after 500ms
+2022/06/16 17:22:34 [emerg] 4751#4751: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:22:34 [emerg] 4751#4751: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:22:34 [notice] 4751#4751: try again to bind() after 500ms
+2022/06/16 17:22:34 [emerg] 4751#4751: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:22:34 [emerg] 4751#4751: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:22:34 [notice] 4751#4751: try again to bind() after 500ms
+2022/06/16 17:22:34 [emerg] 4751#4751: still could not bind()
+2022/06/16 17:23:00 [emerg] 4796#4796: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:23:00 [emerg] 4796#4796: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:23:00 [notice] 4796#4796: try again to bind() after 500ms
+2022/06/16 17:23:00 [emerg] 4796#4796: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:23:00 [emerg] 4796#4796: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:23:00 [notice] 4796#4796: try again to bind() after 500ms
+2022/06/16 17:23:00 [emerg] 4796#4796: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:23:00 [emerg] 4796#4796: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:23:00 [notice] 4796#4796: try again to bind() after 500ms
+2022/06/16 17:23:00 [emerg] 4796#4796: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:23:00 [emerg] 4796#4796: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:23:00 [notice] 4796#4796: try again to bind() after 500ms
+2022/06/16 17:23:00 [emerg] 4796#4796: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:23:00 [emerg] 4796#4796: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:23:00 [notice] 4796#4796: try again to bind() after 500ms
+2022/06/16 17:23:00 [emerg] 4796#4796: still could not bind()
+2022/06/16 17:23:06 [notice] 4399#4399: signal 1 (SIGHUP) received from 4822, reconfiguring
+2022/06/16 17:23:06 [notice] 4399#4399: reconfiguring
+2022/06/16 17:23:06 [notice] 4399#4399: using the "epoll" event method
+2022/06/16 17:23:06 [notice] 4399#4399: start worker processes
+2022/06/16 17:23:06 [notice] 4399#4399: start worker process 4823
+2022/06/16 17:23:06 [notice] 4643#4643: gracefully shutting down
+2022/06/16 17:23:06 [notice] 4643#4643: exiting
+2022/06/16 17:23:06 [notice] 4643#4643: exit
+2022/06/16 17:23:06 [notice] 4399#4399: signal 17 (SIGCHLD) received from 4643
+2022/06/16 17:23:06 [notice] 4399#4399: worker process 4643 exited with code 0
+2022/06/16 17:23:06 [notice] 4399#4399: signal 29 (SIGIO) received
+2022/06/16 17:23:07 [emerg] 4839#4839: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:23:07 [emerg] 4839#4839: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:23:07 [notice] 4839#4839: try again to bind() after 500ms
+2022/06/16 17:23:07 [emerg] 4839#4839: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:23:07 [emerg] 4839#4839: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:23:07 [notice] 4839#4839: try again to bind() after 500ms
+2022/06/16 17:23:07 [emerg] 4839#4839: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:23:07 [emerg] 4839#4839: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:23:07 [notice] 4839#4839: try again to bind() after 500ms
+2022/06/16 17:23:07 [emerg] 4839#4839: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:23:07 [emerg] 4839#4839: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:23:07 [notice] 4839#4839: try again to bind() after 500ms
+2022/06/16 17:23:07 [emerg] 4839#4839: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:23:07 [emerg] 4839#4839: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:23:07 [notice] 4839#4839: try again to bind() after 500ms
+2022/06/16 17:23:07 [emerg] 4839#4839: still could not bind()
+2022/06/16 17:24:31 [notice] 4399#4399: signal 1 (SIGHUP) received from 4889, reconfiguring
+2022/06/16 17:24:31 [notice] 4399#4399: reconfiguring
+2022/06/16 17:24:31 [notice] 4399#4399: using the "epoll" event method
+2022/06/16 17:24:31 [notice] 4399#4399: start worker processes
+2022/06/16 17:24:31 [notice] 4399#4399: start worker process 4891
+2022/06/16 17:24:31 [notice] 4823#4823: gracefully shutting down
+2022/06/16 17:24:31 [notice] 4823#4823: exiting
+2022/06/16 17:24:31 [notice] 4823#4823: exit
+2022/06/16 17:24:31 [notice] 4399#4399: signal 17 (SIGCHLD) received from 4823
+2022/06/16 17:24:31 [notice] 4399#4399: worker process 4823 exited with code 0
+2022/06/16 17:24:31 [notice] 4399#4399: signal 29 (SIGIO) received
+2022/06/16 17:24:34 [notice] 4399#4399: signal 15 (SIGTERM) received from 4897, exiting
+2022/06/16 17:24:34 [notice] 4891#4891: exiting
+2022/06/16 17:24:34 [notice] 4891#4891: exit
+2022/06/16 17:24:34 [notice] 4399#4399: signal 17 (SIGCHLD) received from 4891
+2022/06/16 17:24:34 [notice] 4399#4399: worker process 4891 exited with code 0
+2022/06/16 17:24:34 [notice] 4399#4399: exit
+2022/06/16 17:24:38 [notice] 4911#4911: using the "epoll" event method
+2022/06/16 17:24:38 [notice] 4911#4911: nginx/1.22.0
+2022/06/16 17:24:38 [notice] 4911#4911: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:24:38 [notice] 4911#4911: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:24:38 [notice] 4911#4911: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:24:38 [notice] 4912#4912: start worker processes
+2022/06/16 17:24:38 [notice] 4912#4912: start worker process 4914
+2022/06/16 17:25:16 [notice] 4974#4974: using the "epoll" event method
+2022/06/16 17:25:16 [notice] 4974#4974: nginx/1.22.0
+2022/06/16 17:25:16 [notice] 4974#4974: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:25:16 [notice] 4974#4974: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:25:16 [notice] 4974#4974: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:25:16 [notice] 4975#4975: start worker processes
+2022/06/16 17:25:16 [notice] 4975#4975: start worker process 4977
+2022/06/16 17:25:22 [notice] 4975#4975: signal 15 (SIGTERM) received from 4983, exiting
+2022/06/16 17:25:22 [notice] 4977#4977: exiting
+2022/06/16 17:25:22 [notice] 4977#4977: exit
+2022/06/16 17:25:22 [notice] 4975#4975: signal 17 (SIGCHLD) received from 4977
+2022/06/16 17:25:22 [notice] 4975#4975: worker process 4977 exited with code 0
+2022/06/16 17:25:22 [notice] 4975#4975: exit
+2022/06/16 17:25:27 [notice] 4996#4996: using the "epoll" event method
+2022/06/16 17:25:27 [notice] 4996#4996: nginx/1.22.0
+2022/06/16 17:25:27 [notice] 4996#4996: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:25:27 [notice] 4996#4996: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:25:27 [notice] 4996#4996: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:25:27 [notice] 4997#4997: start worker processes
+2022/06/16 17:25:27 [notice] 4997#4997: start worker process 4998
+2022/06/16 17:26:01 [notice] 4997#4997: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 17:26:01 [notice] 4998#4998: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 17:26:01 [notice] 4998#4998: exiting
+2022/06/16 17:26:01 [notice] 4998#4998: exit
+2022/06/16 17:26:01 [notice] 4997#4997: signal 17 (SIGCHLD) received from 4998
+2022/06/16 17:26:01 [notice] 4997#4997: worker process 4998 exited with code 0
+2022/06/16 17:26:01 [notice] 4997#4997: exit
+2022/06/16 17:26:01 [notice] 5052#5052: using the "epoll" event method
+2022/06/16 17:26:01 [notice] 5052#5052: nginx/1.22.0
+2022/06/16 17:26:01 [notice] 5052#5052: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:26:01 [notice] 5052#5052: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:26:01 [notice] 5052#5052: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:26:01 [notice] 5054#5054: start worker processes
+2022/06/16 17:26:01 [notice] 5054#5054: start worker process 5057
+2022/06/16 17:27:16 [notice] 5194#5194: using the "epoll" event method
+2022/06/16 17:27:16 [notice] 5194#5194: nginx/1.22.0
+2022/06/16 17:27:16 [notice] 5194#5194: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:27:16 [notice] 5194#5194: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:27:16 [notice] 5194#5194: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:27:16 [notice] 5196#5196: start worker processes
+2022/06/16 17:27:16 [notice] 5196#5196: start worker process 5197
+2022/06/16 17:27:32 [notice] 5196#5196: signal 1 (SIGHUP) received from 5239, reconfiguring
+2022/06/16 17:27:32 [notice] 5196#5196: reconfiguring
+2022/06/16 17:27:32 [notice] 5196#5196: using the "epoll" event method
+2022/06/16 17:27:32 [notice] 5196#5196: start worker processes
+2022/06/16 17:27:32 [notice] 5196#5196: start worker process 5240
+2022/06/16 17:27:32 [notice] 5197#5197: gracefully shutting down
+2022/06/16 17:27:32 [notice] 5197#5197: exiting
+2022/06/16 17:27:32 [notice] 5197#5197: exit
+2022/06/16 17:27:32 [notice] 5196#5196: signal 17 (SIGCHLD) received from 5197
+2022/06/16 17:27:32 [notice] 5196#5196: worker process 5197 exited with code 0
+2022/06/16 17:27:32 [notice] 5196#5196: signal 29 (SIGIO) received
+2022/06/16 17:27:47 [notice] 5196#5196: signal 15 (SIGTERM) received from 5267, exiting
+2022/06/16 17:27:47 [notice] 5240#5240: exiting
+2022/06/16 17:27:47 [notice] 5240#5240: exit
+2022/06/16 17:27:47 [notice] 5196#5196: signal 17 (SIGCHLD) received from 5240
+2022/06/16 17:27:47 [notice] 5196#5196: worker process 5240 exited with code 0
+2022/06/16 17:27:47 [notice] 5196#5196: exit
+2022/06/16 17:29:20 [notice] 5438#5438: using the "epoll" event method
+2022/06/16 17:29:20 [notice] 5438#5438: nginx/1.22.0
+2022/06/16 17:29:20 [notice] 5438#5438: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:29:20 [notice] 5438#5438: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:29:20 [notice] 5438#5438: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:29:20 [notice] 5439#5439: start worker processes
+2022/06/16 17:29:20 [notice] 5439#5439: start worker process 5441
+2022/06/16 17:29:31 [emerg] 5461#5461: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:29:31 [emerg] 5461#5461: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:29:31 [notice] 5461#5461: try again to bind() after 500ms
+2022/06/16 17:29:31 [emerg] 5461#5461: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:29:31 [emerg] 5461#5461: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:29:31 [notice] 5461#5461: try again to bind() after 500ms
+2022/06/16 17:29:31 [emerg] 5461#5461: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:29:31 [emerg] 5461#5461: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:29:31 [notice] 5461#5461: try again to bind() after 500ms
+2022/06/16 17:29:31 [emerg] 5461#5461: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:29:31 [emerg] 5461#5461: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:29:31 [notice] 5461#5461: try again to bind() after 500ms
+2022/06/16 17:29:31 [emerg] 5461#5461: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:29:31 [emerg] 5461#5461: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:29:31 [notice] 5461#5461: try again to bind() after 500ms
+2022/06/16 17:29:31 [emerg] 5461#5461: still could not bind()
+2022/06/16 17:30:07 [notice] 5575#5575: using the "epoll" event method
+2022/06/16 17:30:07 [notice] 5575#5575: nginx/1.22.0
+2022/06/16 17:30:07 [notice] 5575#5575: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:30:07 [notice] 5575#5575: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:30:07 [notice] 5575#5575: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:30:07 [notice] 5578#5578: start worker processes
+2022/06/16 17:30:07 [notice] 5578#5578: start worker process 5579
+2022/06/16 17:31:37 [notice] 5578#5578: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 17:31:37 [notice] 5579#5579: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 17:31:37 [notice] 5579#5579: exiting
+2022/06/16 17:31:37 [notice] 5579#5579: exit
+2022/06/16 17:31:37 [notice] 5578#5578: signal 17 (SIGCHLD) received from 5579
+2022/06/16 17:31:37 [notice] 5578#5578: worker process 5579 exited with code 0
+2022/06/16 17:31:37 [notice] 5578#5578: exit
+2022/06/16 17:38:28 [notice] 5854#5854: using the "epoll" event method
+2022/06/16 17:38:28 [notice] 5854#5854: nginx/1.22.0
+2022/06/16 17:38:28 [notice] 5854#5854: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:38:28 [notice] 5854#5854: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:38:28 [notice] 5854#5854: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:38:28 [notice] 5855#5855: start worker processes
+2022/06/16 17:38:28 [notice] 5855#5855: start worker process 5859
+2022/06/16 17:38:31 [notice] 5855#5855: signal 15 (SIGTERM) received from 5863, exiting
+2022/06/16 17:38:31 [notice] 5859#5859: exiting
+2022/06/16 17:38:31 [notice] 5859#5859: exit
+2022/06/16 17:38:31 [notice] 5855#5855: signal 17 (SIGCHLD) received from 5859
+2022/06/16 17:38:31 [notice] 5855#5855: worker process 5859 exited with code 0
+2022/06/16 17:38:31 [notice] 5855#5855: exit
+2022/06/16 17:39:01 [notice] 5916#5916: using the "epoll" event method
+2022/06/16 17:39:01 [notice] 5916#5916: nginx/1.22.0
+2022/06/16 17:39:01 [notice] 5916#5916: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:39:01 [notice] 5916#5916: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:39:01 [notice] 5916#5916: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:39:01 [notice] 5918#5918: start worker processes
+2022/06/16 17:39:01 [notice] 5918#5918: start worker process 5920
+2022/06/16 17:40:30 [notice] 5918#5918: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 17:40:30 [notice] 5920#5920: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 17:40:30 [notice] 5920#5920: exiting
+2022/06/16 17:40:30 [notice] 5920#5920: exit
+2022/06/16 17:40:31 [notice] 5918#5918: signal 17 (SIGCHLD) received from 5920
+2022/06/16 17:40:31 [notice] 5918#5918: worker process 5920 exited with code 0
+2022/06/16 17:40:31 [notice] 5918#5918: exit
+2022/06/16 17:43:44 [notice] 6338#6338: using the "epoll" event method
+2022/06/16 17:43:44 [notice] 6338#6338: nginx/1.22.0
+2022/06/16 17:43:44 [notice] 6338#6338: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:43:44 [notice] 6338#6338: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:43:44 [notice] 6338#6338: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:43:44 [notice] 6339#6339: start worker processes
+2022/06/16 17:43:44 [notice] 6339#6339: start worker process 6341
+2022/06/16 17:43:52 [emerg] 6354#6354: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:43:52 [emerg] 6354#6354: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:43:52 [notice] 6354#6354: try again to bind() after 500ms
+2022/06/16 17:43:52 [emerg] 6354#6354: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:43:52 [emerg] 6354#6354: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:43:52 [notice] 6354#6354: try again to bind() after 500ms
+2022/06/16 17:43:52 [emerg] 6354#6354: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:43:52 [emerg] 6354#6354: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:43:52 [notice] 6354#6354: try again to bind() after 500ms
+2022/06/16 17:43:52 [emerg] 6354#6354: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:43:52 [emerg] 6354#6354: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:43:52 [notice] 6354#6354: try again to bind() after 500ms
+2022/06/16 17:43:52 [emerg] 6354#6354: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2022/06/16 17:43:52 [emerg] 6354#6354: bind() to 0.0.0.0:5000 failed (98: Address already in use)
+2022/06/16 17:43:52 [notice] 6354#6354: try again to bind() after 500ms
+2022/06/16 17:43:52 [emerg] 6354#6354: still could not bind()
+2022/06/16 17:44:32 [notice] 6461#6461: using the "epoll" event method
+2022/06/16 17:44:32 [notice] 6461#6461: nginx/1.22.0
+2022/06/16 17:44:32 [notice] 6461#6461: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:44:32 [notice] 6461#6461: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:44:32 [notice] 6461#6461: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:44:32 [notice] 6463#6463: start worker processes
+2022/06/16 17:44:32 [notice] 6463#6463: start worker process 6465
+2022/06/16 17:44:50 [error] 6465#6465: *1 connect() to unix:/JenkinsTest/uwsgi.sock failed (111: Connection refused) while connecting to upstream, client: 192.168.11.1, server: localhost, request: "POST /delSequence HTTP/1.1", upstream: "uwsgi://unix:/JenkinsTest/uwsgi.sock:", host: "192.168.11.130:5000"
+2022/06/16 17:44:57 [error] 6465#6465: *1 connect() to unix:/JenkinsTest/uwsgi.sock failed (111: Connection refused) while connecting to upstream, client: 192.168.11.1, server: localhost, request: "POST /delSequence HTTP/1.1", upstream: "uwsgi://unix:/JenkinsTest/uwsgi.sock:", host: "192.168.11.130:5000"
+2022/06/16 17:45:17 [error] 6465#6465: *1 connect() to unix:/JenkinsTest/uwsgi.sock failed (111: Connection refused) while connecting to upstream, client: 192.168.11.1, server: localhost, request: "POST /delSequence HTTP/1.1", upstream: "uwsgi://unix:/JenkinsTest/uwsgi.sock:", host: "192.168.11.130:5000"
+2022/06/16 17:46:05 [notice] 6463#6463: signal 15 (SIGTERM) received from 6655, exiting
+2022/06/16 17:46:05 [notice] 6465#6465: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 17:46:05 [notice] 6465#6465: exiting
+2022/06/16 17:46:05 [notice] 6465#6465: exit
+2022/06/16 17:46:05 [notice] 6463#6463: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 17:46:05 [notice] 6463#6463: signal 17 (SIGCHLD) received from 6465
+2022/06/16 17:46:05 [notice] 6463#6463: worker process 6465 exited with code 0
+2022/06/16 17:46:05 [notice] 6463#6463: exit
+2022/06/16 17:46:05 [notice] 6661#6661: using the "epoll" event method
+2022/06/16 17:46:05 [notice] 6661#6661: nginx/1.22.0
+2022/06/16 17:46:05 [notice] 6661#6661: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:46:05 [notice] 6661#6661: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:46:05 [notice] 6661#6661: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:46:05 [notice] 6662#6662: start worker processes
+2022/06/16 17:46:05 [notice] 6662#6662: start worker process 6663
+2022/06/16 17:46:34 [notice] 6662#6662: signal 15 (SIGTERM) received from 6774, exiting
+2022/06/16 17:46:34 [notice] 6663#6663: exiting
+2022/06/16 17:46:34 [notice] 6663#6663: exit
+2022/06/16 17:46:34 [notice] 6662#6662: signal 17 (SIGCHLD) received from 6663
+2022/06/16 17:46:34 [notice] 6662#6662: worker process 6663 exited with code 0
+2022/06/16 17:46:34 [notice] 6662#6662: exit
+2022/06/16 17:46:54 [notice] 1061#1061: using the "epoll" event method
+2022/06/16 17:46:54 [notice] 1061#1061: nginx/1.22.0
+2022/06/16 17:46:54 [notice] 1061#1061: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:46:54 [notice] 1061#1061: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:46:54 [notice] 1061#1061: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:46:54 [notice] 1075#1075: start worker processes
+2022/06/16 17:46:54 [notice] 1075#1075: start worker process 1077
+2022/06/16 17:48:01 [crit] 1077#1077: *2 connect() to unix:/JenkinsTest/uwsgi.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.11.1, server: localhost, request: "POST /delSequence HTTP/1.1", upstream: "uwsgi://unix:/JenkinsTest/uwsgi.sock:", host: "192.168.11.130:5000"
+2022/06/16 17:48:49 [crit] 1077#1077: *2 connect() to unix:/JenkinsTest/uwsgi.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.11.1, server: localhost, request: "POST /delSequence HTTP/1.1", upstream: "uwsgi://unix:/JenkinsTest/uwsgi.sock:", host: "192.168.11.130:5000"
+2022/06/16 17:48:55 [crit] 1077#1077: *2 connect() to unix:/JenkinsTest/uwsgi.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.11.1, server: localhost, request: "POST /delSequence HTTP/1.1", upstream: "uwsgi://unix:/JenkinsTest/uwsgi.sock:", host: "192.168.11.130:5000"
+2022/06/16 17:51:07 [notice] 1077#1077: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 17:51:07 [notice] 1077#1077: exiting
+2022/06/16 17:51:07 [notice] 1075#1075: signal 15 (SIGTERM) received from 2949, exiting
+2022/06/16 17:51:07 [notice] 1075#1075: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 17:51:07 [notice] 1077#1077: exit
+2022/06/16 17:51:07 [notice] 1075#1075: signal 17 (SIGCHLD) received from 1077
+2022/06/16 17:51:07 [notice] 1075#1075: worker process 1077 exited with code 0
+2022/06/16 17:51:07 [notice] 1075#1075: exit
+2022/06/16 17:53:50 [notice] 1068#1068: using the "epoll" event method
+2022/06/16 17:53:50 [notice] 1068#1068: nginx/1.22.0
+2022/06/16 17:53:50 [notice] 1068#1068: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 17:53:50 [notice] 1068#1068: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 17:53:50 [notice] 1068#1068: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 17:53:50 [notice] 1084#1084: start worker processes
+2022/06/16 17:53:50 [notice] 1084#1084: start worker process 1088
+2022/06/16 18:20:17 [notice] 1084#1084: signal 15 (SIGTERM) received from 5324, exiting
+2022/06/16 18:20:17 [notice] 1088#1088: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 18:20:17 [notice] 1088#1088: exiting
+2022/06/16 18:20:17 [notice] 1084#1084: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 18:20:17 [notice] 1088#1088: exit
+2022/06/16 18:20:17 [notice] 1084#1084: signal 17 (SIGCHLD) received from 1088
+2022/06/16 18:20:17 [notice] 1084#1084: worker process 1088 exited with code 0
+2022/06/16 18:20:17 [notice] 1084#1084: exit
+2022/06/16 18:26:59 [notice] 1058#1058: using the "epoll" event method
+2022/06/16 18:26:59 [notice] 1058#1058: nginx/1.22.0
+2022/06/16 18:26:59 [notice] 1058#1058: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 18:26:59 [notice] 1058#1058: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 18:26:59 [notice] 1058#1058: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 18:26:59 [notice] 1080#1080: start worker processes
+2022/06/16 18:26:59 [notice] 1080#1080: start worker process 1082
+2022/06/16 18:28:04 [error] 1082#1082: *2 connect() to unix:/JenkinsTest/uwsgi.sock failed (111: Connection refused) while connecting to upstream, client: 192.168.11.1, server: localhost, request: "POST /delSequence HTTP/1.1", upstream: "uwsgi://unix:/JenkinsTest/uwsgi.sock:", host: "192.168.11.130:5000"
+2022/06/16 18:28:59 [error] 1082#1082: *2 connect() to unix:/JenkinsTest/uwsgi.sock failed (111: Connection refused) while connecting to upstream, client: 192.168.11.1, server: localhost, request: "POST /delSequence HTTP/1.1", upstream: "uwsgi://unix:/JenkinsTest/uwsgi.sock:", host: "192.168.11.130:5000"
+2022/06/16 18:33:18 [notice] 1080#1080: signal 15 (SIGTERM) received from 3275, exiting
+2022/06/16 18:33:18 [notice] 1082#1082: exiting
+2022/06/16 18:33:18 [notice] 1082#1082: exit
+2022/06/16 18:33:18 [notice] 1080#1080: signal 17 (SIGCHLD) received from 1082
+2022/06/16 18:33:18 [notice] 1080#1080: worker process 1082 exited with code 0
+2022/06/16 18:33:18 [notice] 1080#1080: exit
+2022/06/16 18:33:38 [notice] 1061#1061: using the "epoll" event method
+2022/06/16 18:33:38 [notice] 1061#1061: nginx/1.22.0
+2022/06/16 18:33:38 [notice] 1061#1061: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 18:33:38 [notice] 1061#1061: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 18:33:38 [notice] 1061#1061: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 18:33:38 [notice] 1078#1078: start worker processes
+2022/06/16 18:33:38 [notice] 1078#1078: start worker process 1080
+2022/06/16 18:37:46 [notice] 1078#1078: signal 15 (SIGTERM) received from 3212, exiting
+2022/06/16 18:37:46 [notice] 1080#1080: exiting
+2022/06/16 18:37:46 [notice] 1080#1080: exit
+2022/06/16 18:37:46 [notice] 1078#1078: signal 17 (SIGCHLD) received from 1080
+2022/06/16 18:37:46 [notice] 1078#1078: worker process 1080 exited with code 0
+2022/06/16 18:37:46 [notice] 1078#1078: exit
+2022/06/16 18:38:33 [notice] 1058#1058: using the "epoll" event method
+2022/06/16 18:38:33 [notice] 1058#1058: nginx/1.22.0
+2022/06/16 18:38:33 [notice] 1058#1058: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 18:38:33 [notice] 1058#1058: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 18:38:33 [notice] 1058#1058: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 18:38:33 [notice] 1077#1077: start worker processes
+2022/06/16 18:38:33 [notice] 1077#1077: start worker process 1081
+2022/06/16 21:38:29 [error] 1081#1081: *10 "/usr/share/nginx/html/github-webhook/index.html" is not found (2: No such file or directory), client: 192.168.11.130, server: localhost, request: "POST /github-webhook/ HTTP/1.1", host: "192.168.11.130"
+2022/06/16 22:35:37 [notice] 1077#1077: signal 15 (SIGTERM) received from 18707, exiting
+2022/06/16 22:35:37 [notice] 1081#1081: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 22:35:37 [notice] 1081#1081: exiting
+2022/06/16 22:35:37 [notice] 1077#1077: signal 15 (SIGTERM) received from 1, exiting
+2022/06/16 22:35:37 [notice] 1077#1077: signal 14 (SIGALRM) received
+2022/06/16 22:35:37 [notice] 1081#1081: exit
+2022/06/16 22:35:37 [notice] 1077#1077: signal 17 (SIGCHLD) received from 1081
+2022/06/16 22:35:37 [notice] 1077#1077: worker process 1081 exited with code 0
+2022/06/16 22:35:37 [notice] 1077#1077: exit
+2022/06/16 22:36:56 [notice] 19118#19118: using the "epoll" event method
+2022/06/16 22:36:56 [notice] 19118#19118: nginx/1.22.0
+2022/06/16 22:36:56 [notice] 19118#19118: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/06/16 22:36:56 [notice] 19118#19118: OS: Linux 3.10.0-1160.66.1.el7.x86_64
+2022/06/16 22:36:56 [notice] 19118#19118: getrlimit(RLIMIT_NOFILE): 1024:4096
+2022/06/16 22:36:56 [notice] 19120#19120: start worker processes
+2022/06/16 22:36:56 [notice] 19120#19120: start worker process 19123
